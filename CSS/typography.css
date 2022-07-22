@@ -1,0 +1,83 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+.welcome {
+    background-color: #648cff;
+  }
+.app-name h3 {
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav-item:hover {
+    background-color: #4466c9;
+  }
+.nav-item a {
+  color: #e1e1e1;
+  text-transform: capitalize;
+}
+
+.w-content-left h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+.w-content-left p {
+  color: white;
+}
+
+.button {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.button:hover{
+    background-image: linear-gradient(45deg, #fbeb63, #fff);
+    color: #4466c9;
+}
+.button-1{
+    background-color: #fc6a42;
+}
+.button-2{
+    background-color: #4466c9  ;
+}
+.phone-left-side{
+  background-color: #fc6a42;
+}
+.degrees{
+  background-color: #ffffff;
+}
+.london{
+  background-color: #4466c9;
+}
+.rio{
+  background-color: #fcec64;
+
+}
+.scroll-button {
+    background-color: #ffffff;
+    border: 5px solid #638CFF;
+}
+.scroll-button:hover {
+    animation: sir 1s infinite;
+}
+@keyframes sir {
+    0% , 100%{
+    border: 5px solid #4466c9;
+    }
+    30%{
+    border-right-color:#fc6a42;
+    }
+    50%{
+        border-bottom-color: #fc6a42;
+    }
+    70%{
+        border-left-color: #fc6a42;
+    }
+    90%{
+        border-top-color: #fc6a42;
+    }
+}
