@@ -1,0 +1,318 @@
+.header-wrapper {
+  /* border: 5px solid black; */
+  background-color: #648cff;
+
+  border-radius: 0% 0% 30% 30% / 0% 0% 10% 10%;
+}
+.welcome {
+  /* background-color: #648cff; */
+  /* border: 3px solid yellow; */
+  /* background-image: url(../img/wave.png);
+  background-repeat:repeat-x;
+  background-position-y: bottom; */
+}
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10vh;
+  padding: 2em 1em 0 1em;
+  gap: 2%;
+  /* border: 5px solid green; */
+}
+.app-name {
+  /* border: 2px solid red; */
+}
+.app-name h3 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header nav {
+  order: 3;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.nav-item {
+  flex-basis: 40%; /*to stack it in 2 rows in mob vw*/
+  /* justify-self: center; */
+  text-align: center;
+  margin: 0.3em 0;
+  border-radius: 5px;
+  /* border: 2px solid black; */
+}
+.nav-item:hover {
+  background-color: #4466c9;
+}
+.nav-item a {
+  display: block; /*the whole area is clickable*/
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e1e1e1;
+}
+
+.social {
+  /*general styling*/
+  margin-right: 1em;
+  margin-top: 1em;
+
+  /*as flex item*/
+  /* align-self: flex-end; */
+
+  /*as flex container*/
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+.social a {
+  border-bottom: 2px solid transparent;
+  /* so later on hover it doesn't glitch */
+}
+.social a:hover {
+  border-bottom-color: #fc6a42;
+}
+.social-icon {
+  /* border:2px solid green; */
+  height: 100%;
+}
+
+/*the part with the page h1 and mobile pic with the app open*/
+.welcome-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  gap: 5vh;
+  padding: 0 1em;
+}
+.w-content-left {
+  display: flex;
+  flex-flow: column wrap;
+  /* border: 3px solid green; */
+  padding: 0 1em;
+}
+.w-content-left h1 {
+  margin: 1em auto;
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.w-content-left p {
+  color: white;
+  font-size: 22px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0;
+  /* border:2px solid red; */
+}
+.button {
+  display: block;
+  text-align: center;
+  padding: 0.4em 0;
+  flex-basis: 45%;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.button:hover {
+  background-image: linear-gradient(45deg, #fbeb63, #fff);
+  color: #4466c9;
+}
+.button-1 {
+  background-color: #fc6a42;
+}
+.button-2 {
+  background-color: #4466c9;
+}
+.w-content-right {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  /* align-items: stretch; */
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* to center text hz. and vr. */
+
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e1e1e1;
+  font-weight: 400;
+}
+.phone-left-side {
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  background-color: #fc6a42;
+}
+.phone {
+  margin: 0.5em auto;
+}
+.phone-right-side {
+  display: flex;
+  justify-content: space-around;
+}
+.degrees {
+  width: 57px;
+  height: 57px;
+  border-radius: 29px;
+  background-color: #ffffff;
+}
+.london {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  background-color: #4466c9;
+  font-size: 16px;
+  letter-spacing: -1px;
+  line-height: 167px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.rio {
+  width: 55px;
+  height: 55px;
+  border-radius: 28px;
+  background-color: #fcec64;
+}
+.scroll-button {
+  width: 49px;
+  height: 49px;
+  border-radius: 25px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 5px solid #638cff;
+}
+.scroll-button:hover {
+  animation: coloring-border 0.8s infinite;
+}
+@keyframes coloring-border {
+  0%,
+  100% {
+    border: 5px solid #4466c9;
+  }
+  30% {
+    border-right-color: #fc6a42;
+  }
+  50% {
+    border-bottom-color: #fc6a42;
+  }
+  70% {
+    border-left-color: #fc6a42;
+  }
+  90% {
+    border-top-color: #fc6a42;
+  }
+}
+.scroll-button a {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-part {
+  zoom: 250%;
+  margin: -1px;
+}
+
+@media (min-width: 550px) {
+  .header-wrapper {
+    background-image: url(../img/wave.png), url(../img/wave2.png);
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+  }
+  .header {
+    flex-flow: row wrap;
+  }
+  .header nav {
+    min-width: 450px; /* to have it well spanned */
+    margin: 0 auto; /*to center it*/
+    order: 1;
+    justify-content: space-between;
+  }
+  .nav-item {
+    flex-basis: 24%;
+  }
+  .social {
+    margin: unset;
+  }
+}
+
+@media (min-width: 800px) {
+  .welcome {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .header {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .app-name {
+    min-width: fit-content; /*to stop it from wrapping text*/
+  }
+  .header nav {
+    order: unset; /*to get back in normal order*/
+    flex-basis: 50%;
+  }
+
+  .nav-item {
+    display: block;
+    flex-basis: 17%;
+  }
+  .social {
+    align-self: unset; /*to get back in the flow vertically*/
+    flex: 0 0 15%;
+  }
+
+  .welcome-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .w-content-left {
+    flex-basis: 40%;
+  }
+  .w-content-left h1{
+      line-height: normal;
+  }
+  .buttons {
+    justify-content: flex-start;
+    gap: 2%;
+  }
+  .button {
+    flex-basis: 48%;
+    padding: 0.6em 0;
+  }
+  .w-content-right {
+    flex-flow: row nowrap;
+    gap: 2%;
+  }
+  .phone-left-side {
+    align-self: center;
+  }
+  .phone-right-side {
+    flex-flow: column wrap;
+    justify-content: center;
+    gap:20%;
+    flex-basis: 10%;
+  }
+ 
+  
+}
