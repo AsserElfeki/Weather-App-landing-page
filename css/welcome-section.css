@@ -1,16 +1,9 @@
 .header-wrapper {
-  /* border: 5px solid black; */
   background-color: #648cff;
 
   border-radius: 0% 0% 30% 30% / 0% 0% 10% 10%;
 }
-.welcome {
-  /* background-color: #648cff; */
-  /* border: 3px solid yellow; */
-  /* background-image: url(../img/wave.png);
-  background-repeat:repeat-x;
-  background-position-y: bottom; */
-}
+
 .header {
   display: flex;
   flex-flow: row wrap;
@@ -19,11 +12,8 @@
   margin-bottom: 10vh;
   padding: 2em 1em 0 1em;
   gap: 2%;
-  /* border: 5px solid green; */
 }
-.app-name {
-  /* border: 2px solid red; */
-}
+
 .app-name h3 {
   font-size: 24px;
   color: #ffffff;
@@ -64,7 +54,6 @@
   margin-top: 1em;
 
   /*as flex item*/
-  /* align-self: flex-end; */
 
   /*as flex container*/
   display: flex;
@@ -79,7 +68,6 @@
   border-bottom-color: #fc6a42;
 }
 .social-icon {
-  /* border:2px solid green; */
   height: 100%;
 }
 
@@ -94,7 +82,6 @@
 .w-content-left {
   display: flex;
   flex-flow: column wrap;
-  /* border: 3px solid green; */
   padding: 0 1em;
 }
 .w-content-left h1 {
@@ -111,7 +98,6 @@
   display: flex;
   justify-content: space-around;
   margin: 1em 0;
-  /* border:2px solid red; */
 }
 .button {
   display: block;
@@ -137,7 +123,6 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  /* align-items: stretch; */
 }
 .circle {
   display: flex;
@@ -314,7 +299,5 @@
     justify-content: center;
     gap:20%;
     flex-basis: 10%;
-  }
- 
-  
+  } 
 }

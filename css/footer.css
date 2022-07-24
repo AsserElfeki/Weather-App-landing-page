@@ -1,7 +1,7 @@
 .last-section-wrapper {
   display: flex;
   flex-flow: column nowrap;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 .download-wrapper {
   /*no max width (background)*/
@@ -11,7 +11,7 @@
 .download {
   width: 1200px;
   height: 100px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: 1em auto;
 }
 .footer-wrapper {
