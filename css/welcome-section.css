@@ -222,7 +222,7 @@
 
 @media (min-width: 550px) {
   .header-wrapper {
-    background-image: url(../img/wave.png), url(../img/wave2.png);
+    background-image: url(../img/welcemoe-section/wave.png), url(../img/welcemoe-section/wave2.png);
     background-repeat: repeat-x;
     background-position-y: bottom;
   }
