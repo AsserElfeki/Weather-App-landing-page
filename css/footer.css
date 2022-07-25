@@ -6,30 +6,61 @@
 .download-wrapper {
   /*no max width (background)*/
   background-color: #648cff;
+  overflow: hidden;
 }
 
 .download {
-  width: 1200px;
-  height: 100px;
-  /* border: 2px solid black; */
+  max-width: 1500px;
+  min-height: 464px;
   margin: 1em auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  padding: 2em;
 }
+
+.download-left {
+  flex-basis: 40%;
+}
+
+.download-title {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.discreption {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.download-links {
+  display: flex;
+  gap: 2%;
+}
+.download-right {
+  margin-top: 10%;
+}
+
 .footer-wrapper {
   background-color: #353753;
+  z-index: 5;
 }
 .footer {
   /* it has class "header" also so it inhereits from the header and here only the extras */
   max-width: 1200px;
   margin: 0 auto;
-  padding: 6em 01em 12em 1em;
+  padding: 6em 01em 10em 1em;
 }
-.app-name2{
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 10px;
+
+.app-name2 {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
 }
-.app-name2 h3{
-    text-transform: uppercase;
+.app-name2 h3 {
+  text-transform: uppercase;
 }
 .fun {
   font-size: 24px;
@@ -43,6 +74,35 @@
   font-weight: 700;
   font-family: "Ubuntu";
 }
-.footer .nav-item:hover{
-    background-color: #fc6a42;
+.footer .nav-item:hover {
+  background-color: #fc6a42;
+}
+.copy-right {
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: 400;
+  text-align: right;
+  margin: 0 2em 2em 0;
+}
+
+@media (min-width: 800px) {
+  .download {
+    height: 550px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /* gap:unset; */
+  }
+  .download-right {
+    margin-top: 1%;
+    align-self: baseline;
+    flex-basis: 70%;
+  }
+  .download-left {
+    align-self: center;
+    flex-basis: 30%;
+  }
+  .download-right img {
+    position: sticky;
+  }
 }
