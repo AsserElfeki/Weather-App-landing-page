@@ -10,6 +10,9 @@
     flex-direction: row-reverse;
   }
 
+ .sc-phone{
+     min-width: 100px;
+ }
 .up-bubble,
 .sc-phone-background,
 .bottom-bubble,
@@ -37,6 +40,13 @@
     padding-left: 0.2em;
   }
 @media(min-width:800px){
+    .up-bubble,
+.sc-phone-background,
+.bottom-bubble,
+.right-top-img,
+.right-bottom-image{
+    display:unset;
+}
 .row {
   justify-content: space-between;
   align-items: flex-start;
@@ -46,8 +56,6 @@
   padding-left : 2em;
 
 }
-
-
 .row-left {
   /* border: 2px solid green; */
   position: relative;
