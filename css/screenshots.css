@@ -43,12 +43,15 @@
   gap: 10%;
   max-width: 1000px;
   margin-bottom: 20%;
+  padding-left : 2em;
+
 }
 
 
 .row-left {
   /* border: 2px solid green; */
   position: relative;
+  /* flex-basis: 50%; */
 }
 .up-bubble,
 .sc-phone-background,
@@ -94,7 +97,7 @@
 }
 .row-right {
   /* border: 2px solid red; */
-  flex-basis: 50%;
+  flex-basis: 20%;
 
   display: flex;
   flex-flow: column nowrap;
