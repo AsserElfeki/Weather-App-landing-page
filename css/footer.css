@@ -1,29 +1,24 @@
-.last-section-wrapper {
+.footer-and-download-wrapper {
   display: flex;
   flex-flow: column nowrap;
-  /* border: 3px solid red; */
 }
 .download-wrapper {
   /*no max width (background)*/
   background-color: #648cff;
   overflow: hidden;
 }
-
-.download {
+.download-section {
   max-width: 1500px;
   min-height: 464px;
   margin: 1em auto;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  /* align-items: flex-start; */
   padding: 2em;
 }
-
 .download-left {
   flex-basis: 40%;
 }
-
 .download-title {
   font-size: 36px;
   color: #ffffff;
@@ -34,12 +29,14 @@
   font-size: 18px;
   color: #ffffff;
   font-weight: 400;
+  margin-bottom:2em;
 }
 .download-links {
   display: flex;
   gap: 2%;
 }
 .download-right {
+  /* inherits from .widget-images in global.css */
   margin-top: 10%;
 }
 
@@ -53,7 +50,6 @@
   margin: 0 auto;
   padding: 6em 01em 10em 1em;
 }
-
 .app-name2 {
   display: flex;
   flex-flow: row nowrap;
@@ -66,13 +62,11 @@
   font-size: 24px;
   color: #fc6a42;
   font-weight: 700;
-  font-family: "Ubuntu";
 }
 .weather {
   font-size: 24px;
   color: #4466c9;
   font-weight: 700;
-  font-family: "Ubuntu";
 }
 .footer .nav-item:hover {
   background-color: #fc6a42;
@@ -87,11 +81,10 @@
 }
 
 @media (min-width: 800px) {
-  .download {
+  .download-section {
     height: 550px;
     flex-flow: row nowrap;
     justify-content: space-between;
-    /* gap:unset; */
   }
   .download-right {
     margin-top: 1%;
@@ -102,7 +95,5 @@
     align-self: center;
     flex-basis: 30%;
   }
-  .download-right img {
-    position: sticky;
-  }
+  
 }

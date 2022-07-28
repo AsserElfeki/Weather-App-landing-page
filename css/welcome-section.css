@@ -1,9 +1,7 @@
-.header-wrapper {
+.header-and-welcome-wrapper {
   background-color: #648cff;
-
   border-radius: 0% 0% 30% 30% / 0% 0% 10% 10%;
 }
-
 .header {
   display: flex;
   flex-flow: row wrap;
@@ -13,7 +11,9 @@
   padding: 2em 1em 0 1em;
   gap: 2%;
 }
-
+.welcome{
+  max-width: 1200px;
+}
 .app-name h3 {
   font-size: 24px;
   color: #ffffff;
@@ -23,7 +23,6 @@
 .header nav {
   order: 3;
   margin: 0 auto;
-  /* margin-top:10em; */
 }
 .navbar {
   display: flex;
@@ -31,26 +30,24 @@
   justify-content: space-between;
 }
 .nav-item {
-  flex-basis: 40%; /*to stack it in 2 rows in mob vw*/
-  /* justify-self: center; */
+  flex-basis: 40%; 
   text-align: center;
   margin: 0.3em 0;
   border-radius: 5px;
   padding: 0.3em 0;
-  /* border: 2px solid black; */
 }
 .nav-item:hover {
   background-color: #4466c9;
 }
 .nav-item a {
-  display: block; /*the whole area is clickable*/
+  display: block; 
   text-transform: capitalize;
   font-size: 18px;
   line-height: 22px;
   color: #e1e1e1;
 }
 
-.social {
+.social-icons-wrapper {
   /*general styling*/
   margin-right: 1em;
   margin-top: 1em;
@@ -62,11 +59,10 @@
   justify-content: space-between;
   gap: 1em;
 }
-.social a {
+.social-icons-wrapper a {
   border-bottom: 2px solid transparent;
-  /* so later on hover it doesn't glitch */
 }
-.social a:hover {
+.social-icons-wrapper a:hover {
   border-bottom-color: #fc6a42;
 }
 .social-icon {
@@ -81,18 +77,18 @@
   gap: 5vh;
   padding: 0 1em;
 }
-.w-content-left {
+.welcome-content-left {
   display: flex;
   flex-flow: column wrap;
   padding: 0 1em;
 }
-.w-content-left h1 {
+.welcome-content-left h1 {
   margin: 1em auto;
   font-size: 60px;
   color: #ffffff;
   font-weight: 700;
 }
-.w-content-left p {
+.welcome-content-left p {
   color: white;
   font-size: 22px;
 }
@@ -115,37 +111,35 @@
   background-image: linear-gradient(45deg, #fbeb63, #fff);
   color: #4466c9;
 }
-.button-1 {
+.download-button {
   background-color: #fc6a42;
 }
-.button-2 {
+.features-button {
   background-color: #4466c9;
 }
-.w-content-right {
+.welcome-content-right {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
 }
-.circle {
+.bubble {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* to center text hz. and vr. */
-
   text-transform: uppercase;
   font-size: 18px;
   line-height: 22px;
   color: #e1e1e1;
   font-weight: 400;
 }
-.phone-left-side {
+.sunny {
   margin: 0 auto;
   width: 90px;
   height: 90px;
   border-radius: 45px;
   background-color: #fc6a42;
 }
-.phone {
+.welcome-phone {
   margin: 0.5em auto;
 }
 .phone-right-side {
@@ -221,8 +215,10 @@
 }
 
 @media (min-width: 550px) {
-  .header-wrapper {
-    background-image: url(../img/welcemoe-section/wave.png), url(../img/welcemoe-section/wave2.png);
+  .header-and-welcome-wrapper {
+    background-image: 
+    url(../img/welcemoe-section/wave.png), 
+    url(../img/welcemoe-section/wave2.png);
     background-repeat: repeat-x;
     background-position-y: bottom;
   }
@@ -238,14 +234,13 @@
   .nav-item {
     flex-basis: 24%;
   }
-  .social {
+  .social-icons-wrapper {
     margin: unset;
   }
 }
 
 @media (min-width: 800px) {
   .welcome {
-    max-width: 1200px;
     margin: 0 auto;
   }
   .header {
@@ -260,12 +255,11 @@
     order: unset; /*to get back in normal order*/
     flex-basis: 50%;
   }
-
   .nav-item {
     display: block;
     flex-basis: 17%;
   }
-  .social {
+  .social-icons-wrapper {
     align-self: unset; /*to get back in the flow vertically*/
     flex: 0 0 15%;
   }
@@ -275,10 +269,10 @@
     justify-content: space-between;
     align-items: center;
   }
-  .w-content-left {
+  .welcome-content-left {
     flex-basis: 40%;
   }
-  .w-content-left h1{
+  .welcome-content-left h1{
       line-height: normal;
   }
   .buttons {
@@ -289,11 +283,11 @@
     flex-basis: 48%;
     padding: 0.6em 0;
   }
-  .w-content-right {
+  .welcome-content-right {
     flex-flow: row nowrap;
     gap: 2%;
   }
-  .phone-left-side {
+  .sunny {
     align-self: center;
   }
   .phone-right-side {
