@@ -90,16 +90,13 @@ My purpose of doing this project was to learn and implement as much methods\stra
 The website is responsive and compatibale with *Chrome*, *Firefox*, *Opera*, *Edge*.
 
 ![scrolling gif in mobile dimension](./assets/scroll-mob.gif)
-
-**in mobile viewport**
+*in mobile viewport*
 
 ![scrolling gif in tablet dimension](./assets/scroll-tab.gif)
-
-**in tablet viewport**
+*in tablet viewport*
 
 ![scrolling gif in mobile dimension](./assets/scroll-dt.gif)
-
-**in desktop viewport**
+*in desktop viewport*
 
 ****
 
