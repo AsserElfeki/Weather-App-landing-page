@@ -1,6 +1,6 @@
 # Weather App - landing page
 
-![welcome section](./assets/welcome-dt.gif.gif)
+![welcome section](./assets/welcome-dt.gif)
 
 **This was my first real web dev. project**, implementing a website's landing page using **only HTML5 and CSS** *(no JavaScript)*. 
 It is based on the design👨‍🎨 seen [here.](https://github.com/AsserElfeki/Weather-App/blob/master/src/weatherapp_landing_page.psd) 
