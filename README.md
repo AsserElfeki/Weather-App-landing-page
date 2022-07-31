@@ -88,7 +88,16 @@ My purpose of doing this project was to learn and implement as much methods\stra
 
 #### Responsiveness and compatibility:
 The website is responsive and compatibale with *Chrome*, *Firefox*, *Opera*, *Edge*.
+
 ![scrolling gif in mobile dimension](./assets/scroll-mob.gif)
+**in mobile viewport**
+
+![scrolling gif in tablet dimension](./assets/scroll-tab.gif)
+**in tablet viewport**
+
+![scrolling gif in mobile dimension](./assets/scroll-dt.gif)
+**in desktop viewport**
+
 ****
 
-<style color:"red"  Visit the deployed website [here](https://asserelfeki.github.io/Weather-App/). >
+Visit the deployed website [here](https://asserelfeki.github.io/Weather-App/).
