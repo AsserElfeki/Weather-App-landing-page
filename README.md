@@ -6,13 +6,14 @@
 It is based on the design👨‍🎨 seen [here.](https://github.com/AsserElfeki/Weather-App/blob/master/src/weatherapp_landing_page.psd) 
 My purpose of doing this project was to learn and implement as much methods\strategies as possible.
 
-## 🏆This project was done after finishing:
-- [Responsive Web Design course](https://www.freecodecamp.org/certification/Asser-ELfeki/responsive-web-design) on [freeCodeCamp](https://www.freecodecamp.org/).
-- The relative part of the [frontendmasters](https://frontendmasters.com/bootcamp/) and the [CSS Grid & Flexbox for Responsive Layouts](https://frontendmasters.com/courses/css-grid-flexbox-v2/) by [Jen Kramer](https://frontendmasters.com/teachers/jen-kramer/).
+## 🏆 This project was done after:
+1. Obtaining [Responsive Web Design course certificate](https://www.freecodecamp.org/certification/Asser-ELfeki/responsive-web-design) on [freeCodeCamp](https://www.freecodecamp.org/).
+2. Finishing the relative part of the [frontendmasters](https://frontendmasters.com/bootcamp/).
+3. Completing the [CSS Grid & Flexbox for Responsive Layouts course](https://frontendmasters.com/courses/css-grid-flexbox-v2/) by [Jen Kramer](https://frontendmasters.com/teachers/jen-kramer/).
 
 ****
 
-## 📔In this project I've used several layouts for elements positioning:
+## 📔 In this project I've used several layouts for elements positioning:
 - ### **Flexbox:** *most frequently used in production so I used it in most of the cases.*
     ```html
         <style>
@@ -88,16 +89,19 @@ My purpose of doing this project was to learn and implement as much methods\stra
     
 ****
 
-## Responsiveness and compatibility:
-The website is responsive and compatibale with *Chrome*, *Firefox*, *Opera*, *Edge*.
+## 🐙 Responsiveness and compatibility:
+The website is responsive and compatibale with all major browsers, and have been tested on *Chrome*, *Firefox*, *Opera*, *Edge*.
 
 ![scrolling gif in mobile dimension](./assets/scroll-mob.gif)
+
 *in mobile viewport*
 
 ![scrolling gif in tablet dimension](./assets/scroll-tab.gif)
+
 *in tablet viewport*
 
 ![scrolling gif in mobile dimension](./assets/scroll-dt.gif)
+
 *in desktop viewport*
 
 ****
