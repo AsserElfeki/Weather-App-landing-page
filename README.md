@@ -1,17 +1,19 @@
 # Weather App - landing page
 
+![welcome section](./assets/welcome-dt.gif.gif)
+
 **This was my first real web dev. project**, implementing a website's landing page using **only HTML5 and CSS** *(no JavaScript)*. 
 It is based on the design👨‍🎨 seen [here.](https://github.com/AsserElfeki/Weather-App/blob/master/src/weatherapp_landing_page.psd) 
 My purpose of doing this project was to learn and implement as much methods\strategies as possible.
 
-#### 🏆This project was done after finishing:
+## 🏆This project was done after finishing:
 - [Responsive Web Design course](https://www.freecodecamp.org/certification/Asser-ELfeki/responsive-web-design) on [freeCodeCamp](https://www.freecodecamp.org/).
 - The relative part of the [frontendmasters](https://frontendmasters.com/bootcamp/) and the [CSS Grid & Flexbox for Responsive Layouts](https://frontendmasters.com/courses/css-grid-flexbox-v2/) by [Jen Kramer](https://frontendmasters.com/teachers/jen-kramer/).
 
 ****
 
-#### 📔In this project I've used several layouts for elements positioning:
-- **Flexbox:** *most frequently used in production so I used it in most of the cases.*
+## 📔In this project I've used several layouts for elements positioning:
+- ### **Flexbox:** *most frequently used in production so I used it in most of the cases.*
     ```html
         <style>
             .feature {
@@ -34,7 +36,7 @@ My purpose of doing this project was to learn and implement as much methods\stra
         </body>
     ```  
     
-- **CSS Grid:** *was very useful in overlaying elements while maintaining flexibility and responsiveness.*
+- ### **CSS Grid:** *was very useful in overlaying elements while maintaining flexibility and responsiveness.*
 
     ```html
     <style>
@@ -56,7 +58,7 @@ My purpose of doing this project was to learn and implement as much methods\stra
     </body>
     ```
     
-- **'position' attribute:** *even though useful, but proved harder to maintain responsiveness and flexibility.*
+- ### **'position' attribute:** *even though useful, but proved harder to maintain responsiveness and flexibility.*
     ```html
         <style>
             .row-left {
@@ -86,7 +88,7 @@ My purpose of doing this project was to learn and implement as much methods\stra
     
 ****
 
-#### Responsiveness and compatibility:
+## Responsiveness and compatibility:
 The website is responsive and compatibale with *Chrome*, *Firefox*, *Opera*, *Edge*.
 
 ![scrolling gif in mobile dimension](./assets/scroll-mob.gif)
