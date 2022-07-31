@@ -106,4 +106,4 @@ The website is responsive and compatibale with all major browsers, and have been
 
 ****
 
-Visit the deployed website [here](https://asserelfeki.github.io/Weather-App/).
+Visit the deployed website [here](https://asserelfeki.github.io/Weather-App-landing-page/).
