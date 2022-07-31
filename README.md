@@ -8,7 +8,7 @@ My purpose of doing this project was to learn and implement as much methods\stra
 
 ## 🏆 This project was done after:
 1. Obtaining [Responsive Web Design course certificate](https://www.freecodecamp.org/certification/Asser-ELfeki/responsive-web-design) on [freeCodeCamp](https://www.freecodecamp.org/).
-2. Finishing the relative part of the [frontendmasters](https://frontendmasters.com/bootcamp/).
+2. Finishing the relative part of the [frontendmasters](https://frontendmasters.com/bootcamp/) bootcamp.
 3. Completing the [CSS Grid & Flexbox for Responsive Layouts course](https://frontendmasters.com/courses/css-grid-flexbox-v2/) by [Jen Kramer](https://frontendmasters.com/teachers/jen-kramer/).
 
 ****
