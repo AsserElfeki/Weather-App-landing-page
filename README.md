@@ -1,5 +1,5 @@
 # Weather App - landing page
-
+🌐 [visit the deployed website](https://asserelfeki.github.io/Weather-App-landing-page/) 
 ![welcome section](./assets/welcome-dt.gif)
 
 **This was my first real web dev. project**, implementing a website's landing page using **only HTML5 and CSS** *(no JavaScript)*. 
